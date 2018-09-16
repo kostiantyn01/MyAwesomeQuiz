@@ -87,6 +87,7 @@ public class QuizTittle extends AppCompatActivity implements View.OnClickListene
         //using YoYo library for animation
         YoYo.with(Techniques.Flash).duration(1500).repeat(9999999).playOn(welcomeTv);
 
+        //use MusicPlayerManager class to play music 
         MusicPlayerManager.playMusic(R.raw.sound2);
     }
 
